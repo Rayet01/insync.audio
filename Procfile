@@ -1,0 +1,1 @@
+web: gunicorn insync_audio.wsgi
