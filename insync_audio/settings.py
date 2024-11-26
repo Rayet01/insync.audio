@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-o&b#b#x4fyfz@58u_vc2r5#d!9%md1l&*2f((0lox9$_)&8*7-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-rayet01-insyncaudio-3dr3fgmctnn.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-rayet01-insyncaudio-3dr3fgmctnn.ws.codeinstitute-ide.net', 'insync-audio-787c48c437d9.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://*.codeinstitute-ide.net', 'https://*.herokuapp.com']
 
