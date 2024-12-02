@@ -22,5 +22,6 @@ urlpatterns = [
     path('users/', include('users.urls')),
     path('', include('guest_mixes.urls'), name='home'),
     path('', include('django.contrib.auth.urls')),
+    path('password-reset/', include('django.contrib.auth.urls')),
 ]
 
